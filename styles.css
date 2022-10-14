@@ -1,8 +1,9 @@
+*{
+  font-family: 'Overpass', sans-serif;
+}
+html body{
+background-color: hsl(216, 12%, 8%);
 
-
-body{
-font-family: 'Overpass', sans-serif;
-background-color: hsl(216, 12%, 8%); 
 }
 
 .rating_section{
@@ -11,7 +12,7 @@ background-color: hsl(216, 12%, 8%);
  padding: 1.5rem 2rem 1.5rem 2rem;
  border-radius: 2em;
  border: none;
- background-color: hsl(213, 19%, 18%);
+ background-color: hsl(212, 21%, 14%);
  color: white;
  
 }
@@ -25,3 +26,14 @@ background-color: hsl(216, 12%, 8%);
   padding: 0;
 }
 
+.star{
+  background-color:  hsl(215, 19%, 22%);;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+.main-title-rating{
+  font-weight: 700;
+  padding-bottom: 0.7rem;
+
+}
