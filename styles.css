@@ -1,0 +1,27 @@
+
+
+body{
+font-family: 'Overpass', sans-serif;
+background-color: hsl(216, 12%, 8%); 
+}
+
+.rating_section{
+ margin: 10rem auto 10rem auto;
+ width: 350px;
+ padding: 1.5rem 2rem 1.5rem 2rem;
+ border-radius: 2em;
+ border: none;
+ background-color: hsl(213, 19%, 18%);
+ color: white;
+ 
+}
+
+.rating_number{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+

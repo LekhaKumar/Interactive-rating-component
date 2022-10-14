@@ -5,45 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap for CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <!-- Rating state start -->
 
-  How did we do?
+  <div class="rating_section" role="section">
+    <div class="card-body">
+      <figure>
+        <img src="images/icon-star.svg" alt="rating star icon">
+      </figure>
+      <h5 class="card-title">How did we do?</h5>
+      <p class="card-text">  Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+        <ul class="rating_number">
+          <li>
+            <button type="button" class="btn btn-light one">1</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-light two">2</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-light three">3</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-light four">4</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-light five">5</button>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-lg btn-block d-grid submit_btn">Submit</a>
+    </div>
+  </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
 
-  1 2 3 4 5
+  
 
-  Submit
+
+
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-  You selected <!-- Add rating here --> out of 5
+  <!-- You selected  Add rating here  out of 5 -->
 
-  Thank you!
+  <!-- Thank you!
 
   We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  don’t hesitate to get in touch! -->
 
   <!-- Thank you state end -->
 
-  
+  <!-- <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+</footer> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <!-- Bootsrtrap for JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
