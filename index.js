@@ -13,13 +13,9 @@ $(".submit_btn").click(function () {
 function clickRating(key) {
 
 switch (key) {
-
+  
   case "one":
-    $(key).click(function () { 
-      $(".selection").text("You selected 1 out of 5");
-      
-    });
-   
+   $(".selection").text("You selected 1 out of 5");
     break;
   case "two":
     $(".selection").text("You selected 2 out of 5");
