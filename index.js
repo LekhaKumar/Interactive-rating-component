@@ -1,39 +1,48 @@
- 
-$(".submit_btn").click(function () { 
 
-  let click = $(this).attr("id");
-  
-  clickRating(click);
+$(".submit_btn").click(function () {
+
   $("section").removeClass("hide_card");
+
   $("#rating_card").addClass("hide_card");
+
+  $(".rate").click(function () {
+    let chosenRating = $(this).attr("value");
+    
+      switch (chosenRating) {
+        case "1":
+          $("span").text("1");
+    
+          break;
+        case "2":
+          $("span").text("2");
+    
+          break;
+        case "3":
+          $("span").text("3");
+    
+          break;
+        case "4":
+          $("span").text("4");
+    
+          break;
+        case "5":
+          $("span").text("5");
+    
+          break;
+    
+        default:
+          break;
+      }
+    
+    }
+    
+  );
+
+
+ 
   
+
 });
 
 
-function clickRating(key) {
-
-switch (key) {
-  
-  case "one":
-   $(".selection").text("You selected 1 out of 5");
-    break;
-  case "two":
-    $(".selection").text("You selected 2 out of 5");
-    break;
-  case "three":
-    $(".selection").text("You selected 3 out of 5");
-    break;
-  case "four":
-    $(".selection").text("You selected 4 out of 5");
-    break;
-  case "five":
-    $(".selection").text("You selected 5 out of 5");
-    break;
-  default:
-    $(".selection").text("You selected none.");
-    break;
-}
-
-  
-}
 
