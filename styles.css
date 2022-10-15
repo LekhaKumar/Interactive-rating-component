@@ -6,15 +6,33 @@ background-color: hsl(216, 12%, 8%);
 
 }
 
-.rating_section{
- margin: 10rem auto 10rem auto;
- width: 400px;
- padding: 1.5rem 2.7rem 1.5rem 2rem;
- border-radius: 2em;
- border: none;
- background-color: #171e28;
- color: white;
- 
+.container{
+  position: relative;
+}
+
+.card_section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  border-radius: 2em;
+  border: none;
+  background-color: #171e28;
+  color: white;
+  
+}
+
+.rating_card{
+  z-index: 3;
+
+}
+
+.thankyou_card{
+  z-index: 1;
+}
+
+.hide_card{
+  visibility: hidden;
 }
 
 .rating_number{
@@ -33,14 +51,14 @@ background-color: hsl(216, 12%, 8%);
   border-radius: 50%;
 }
 
-.main-title-rating{
+.main-title{
   font-weight: 700;
   padding-bottom: 1.0rem;
   font-size: 30px;
 
 }
 
-.subtitle-rating{
+.subtitle{
   font-size: 15px;
   padding-bottom: 1.0rem;
   color:hsl(217, 12%, 63%);
@@ -49,8 +67,6 @@ background-color: hsl(216, 12%, 8%);
 }
 
 .rate{
- width: 3.3rem;
- height: 3.3rem;
  border-radius: 50%;
  background-color: #28313a;
  color:hsl(217, 12%, 63%);
@@ -74,14 +90,89 @@ background-color: hsl(216, 12%, 8%);
   color: #ffffff;
   font-size: 20px;
   background: hsl(25, 97%, 53%);
-  padding: 0.5rem 8rem 0.5rem 8rem;
   text-decoration: none;
-  margin: 2rem auto 1rem auto;
-  display: block;
+  display: flex;
+  font-size: 15px;
 }
 
 .submit_btn:hover {
   background: white;
-  color: hsl(25, 97%, 53%);;
+  color: hsl(25, 97%, 53%);
   text-decoration: none;
+}
+
+.illustration{
+  width: 180px;
+  display: block;
+  margin: 2rem auto;
+}
+
+.selection{
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  font-size: 16px;
+  background-color: #28313a;
+  width: 12rem;
+  margin: 1rem auto 2rem auto;
+  padding: 0.7rem;
+  border-radius: 28px;
+}
+
+.main_thanks, .subtitle_thanks{
+  margin: auto !important;
+  text-align: center !important;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+
+
+@media(max-width: 376px){
+
+  .card_section{
+    width: 330px;
+    padding: 1.5rem 2.7rem 1.5rem 2rem;
+
+}
+
+.submit_btn {
+
+  padding: 0.3rem 6rem 0.3rem 6rem;
+  margin: 2rem auto 1rem auto;
+
+}
+
+.subtitle{
+  width: 280px;
+  font-size: 13px;
+
+}
+
+.rate{
+  width: 2.7rem;
+  height: 2.7rem;
+ }
+
+}
+@media(min-width: 376.02px){
+
+  .card_section{
+    width: 400px;
+    padding: 1.5rem 2.7rem 1.5rem 2rem;
+
+}
+
+.submit_btn {
+
+  padding: 0.5rem 8rem 0.5rem 8rem;
+  margin: 2rem auto 1rem auto;
+
+}
+
+.rate{
+  width: 3.3rem;
+  height: 3.3rem;
+ }
+
+
 }
