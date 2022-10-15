@@ -8,11 +8,11 @@ background-color: hsl(216, 12%, 8%);
 
 .rating_section{
  margin: 10rem auto 10rem auto;
- width: 350px;
- padding: 1.5rem 2rem 1.5rem 2rem;
+ width: 400px;
+ padding: 1.5rem 2.7rem 1.5rem 2rem;
  border-radius: 2em;
  border: none;
- background-color: hsl(212, 21%, 14%);
+ background-color: #171e28;
  color: white;
  
 }
@@ -24,16 +24,64 @@ background-color: hsl(216, 12%, 8%);
   justify-content: space-between;
   align-items: center;
   padding: 0;
+ 
 }
 
 .star{
-  background-color:  hsl(215, 19%, 22%);;
+  background-color:  #272e38;
   padding: 0.7rem;
   border-radius: 50%;
 }
 
 .main-title-rating{
   font-weight: 700;
-  padding-bottom: 0.7rem;
+  padding-bottom: 1.0rem;
+  font-size: 30px;
 
+}
+
+.subtitle-rating{
+  font-size: 15px;
+  padding-bottom: 1.0rem;
+  color:hsl(217, 12%, 63%);
+
+
+}
+
+.rate{
+ width: 3.3rem;
+ height: 3.3rem;
+ border-radius: 50%;
+ background-color: #28313a;
+ color:hsl(217, 12%, 63%);
+ border: none;
+
+}
+
+.rate:hover{
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.rate:active{
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit_btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  background: hsl(25, 97%, 53%);
+  padding: 0.5rem 8rem 0.5rem 8rem;
+  text-decoration: none;
+  margin: 2rem auto 1rem auto;
+  display: block;
+}
+
+.submit_btn:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);;
+  text-decoration: none;
 }
