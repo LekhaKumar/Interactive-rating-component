@@ -1,5 +1,4 @@
 
-
   $(".rate").click(function (e) {
     e.preventDefault();
     let clickingEvent = $(this).attr("id");
@@ -26,8 +25,6 @@
   
   
   });
-  
-
 
 $(".submit_btn").click(function () {
 
@@ -35,9 +32,6 @@ $(".submit_btn").click(function () {
   $("section").removeClass("hide_card");
 
   $("#rating_card").addClass("hide_card");
-
-
-
 
 });
 
