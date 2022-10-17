@@ -27,8 +27,11 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [My HTML Complete Code](https://github.com/LekhaKumar/Interactive-rating-component/blob/main/index.html)
+- [My CSS Complete Code](https://github.com/LekhaKumar/Interactive-rating-component/blob/main/styles.css)
+- [My JavaScript Complete Code](https://github.com/LekhaKumar/Interactive-rating-component/blob/main/index.js)
+
+
 
 ## My process
 
