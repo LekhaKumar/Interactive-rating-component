@@ -63,6 +63,6 @@ Through the implementation of JQuery, I can save my time on writing lengthy code
 
 - Frontend Mentor - [@LekhaKumar](https://www.frontendmentor.io/profile/LekhaKumar)
 - Twitter - [@Hamsalekha26](https://www.twitter.com/@Hamsalekha26)
-- Linkedin - [Hamsalekha A Kumaresan](https://www.linkedin.com/in/hamsalekha-a-kumaresan-5b0676207/)]
+- Linkedin - [Hamsalekha A Kumaresan](https://www.linkedin.com/in/hamsalekha-a-kumaresan-5b0676207/)
 
 
