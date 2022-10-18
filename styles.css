@@ -6,6 +6,11 @@ background-color: hsl(216, 12%, 8%);
 
 }
 
+body{
+
+  display: grid;
+  place-items: center;
+}
 .container{
   position: relative;
 }
@@ -66,7 +71,7 @@ background-color: hsl(216, 12%, 8%);
 
 }
 
-.rate{
+input[type=button]{
  border-radius: 50%;
  background-color: #28313a;
  color:hsl(217, 12%, 63%);
@@ -74,12 +79,17 @@ background-color: hsl(216, 12%, 8%);
 
 }
 
-.rate:hover{
+input[type=button]:hover{
   background-color: hsl(217, 12%, 63%);
   color: white;
 }
 
-.rate:active{
+
+input[type=button]:active{
+  background-color: hsl(25, 97%, 53%);
+}
+
+input[type=button]:checked{
   background-color: hsl(25, 97%, 53%);
 }
 
