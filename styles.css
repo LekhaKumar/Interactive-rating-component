@@ -41,11 +41,9 @@ body{
 
 .rating_number{
   display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap;
  
 }
 
@@ -70,27 +68,39 @@ body{
 
 }
 
-input[type=button]{
- border-radius: 50%;
- background-color: #28313a;
- color:hsl(217, 12%, 63%);
- border: none;
 
-}
+  input {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  
+  label {
+      display: inline-block;
+      background-color: #28313a;
+      width: 2.7rem;
+      height: 2.7rem;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      border:none;
+      border-radius: 50%;
+  }
+  
+  label:hover {
+    background-color:hsl(217, 12%, 63%);
+  }
+  
+  input[type="radio"]:focus + label {
+    background-color:hsl(25, 97%, 53%);
 
-input[type=button]:hover{
-  background-color: hsl(217, 12%, 63%);
-  color: white;
-}
+  }
+  
+  input[type="radio"]:checked + label {
+      background-color:hsl(25, 97%, 53%);
+  }
 
 
-input[type=button]:active{
-  background-color: hsl(25, 97%, 53%);
-}
-
-input[type=button]:checked{
-  background-color: hsl(25, 97%, 53%);
-}
 
 .submit_btn {
   -webkit-border-radius: 28;
@@ -157,10 +167,6 @@ input[type=button]:checked{
 
 }
 
-.rate{
-  width: 2.7rem;
-  height: 2.7rem;
- }
 
 }
 @media(min-width: 376.02px){
@@ -177,11 +183,6 @@ input[type=button]:checked{
   margin: 2rem auto 1rem auto;
 
 }
-
-.rate{
-  width: 3.3rem;
-  height: 3.3rem;
- }
 
 
 }

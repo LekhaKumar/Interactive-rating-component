@@ -22,16 +22,15 @@
        $(".selection").text("You have selected none of them.");
         break;
     }
-  
+
   
   });
 
-$(".submit_btn").click(function () {
-
-
-  $("section").removeClass("hide_card");
-
+$(".submit_btn").click(function (e) {
+  e.preventDefault();
   $("#rating_card").addClass("hide_card");
+  $("#thankyou_card").removeClass("hide_card");
+   
 
 });
 
